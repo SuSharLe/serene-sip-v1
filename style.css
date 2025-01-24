@@ -7,6 +7,9 @@
 header {
   text-align: center;
   padding: 30px 0;
+  background-image: url(images/360_F_105907729_4RzHYsHJ2UFt5koUI19fc6VzyFPEjeXe.jpg);
+  background-size: 1400px;
+  background-position: center;
 }
 
 body {
@@ -71,6 +74,7 @@ nav a:hover {
   text-align: center;
   /* margin: 50px auto; */
   border-radius: 10px;
+  display: inline-block;
 }
 .card-img-top {
   max-width: 100%;
