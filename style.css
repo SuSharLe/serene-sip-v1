@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   text-align: center;
   padding: 30px 0;
@@ -41,7 +45,10 @@ header p {
 nav {
   text-align: center;
   padding: 20px 0;
+  top: 20px;
+  left: 20px;
   background-color: #49281a;
+  position: sticky;
 }
 
 nav a {
@@ -155,4 +162,16 @@ form div {
 footer p {
   font-family: "Lato", serif;
   text-align: center;
+}
+
+.backToTop {
+  color: #f0e2c5;
+  background-color: #49281a;
+  text-decoration: none;
+  border-radius: 5px;
+  position: fixed;
+  padding: 10px;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
 }
